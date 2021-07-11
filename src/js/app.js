@@ -1,6 +1,6 @@
 const r = document.querySelectorAll('.cell');
 
-export const id = setInterval(sec, 2000);
+export const id = setInterval(sec, 1000);
 id;
 
 const elem = document.createElement('img');
