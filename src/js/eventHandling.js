@@ -10,6 +10,6 @@ father.addEventListener('click', (event) => {
     } else away++;
     if (away == 5) {
         clearTimeout(id);
-        alert('Игра окончина и карты биты!');
+        alert('Игра окончина!');
     }
 });
