@@ -1,10 +1,10 @@
 import { id } from './app';
 const father = document.querySelector('.pole');
-var score = 0;
-var away = 0;
+let score = 0;
+let away = 0;
 
 father.addEventListener('click', (event) => {
-    var elementOk = event.target.getAttribute('data');
+    let elementOk = event.target.getAttribute('data');
     if (elementOk == 'location') {
         score++;
     } else away++;
