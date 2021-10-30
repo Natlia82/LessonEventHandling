@@ -4,4 +4,4 @@
 
 [Migration Guide](https://webpack.js.org/migrate/5/)
 
-[Игра](https://github.com/Natlia82/LessonEventHandling/tree/master/src/index.html)
+[Игра](https://natlia82.github.io/LessonEventHandling/)
