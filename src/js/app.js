@@ -6,14 +6,14 @@ elem.alt = 'рожица';
 elem.setAttribute('data', 'location');
 
 function getRandomIntInclusive(from, before) {
-    const min = Math.ceil(from);
-    const max = Math.floor(before);
-    return Math.floor(Math.random() * (max - min + 1)) + min;
+  const min = Math.ceil(from);
+  const max = Math.floor(before);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 function sec() {
-    const i = getRandomIntInclusive(0, 15);
-    r[i].appendChild(elem);
+  const i = getRandomIntInclusive(0, 15);
+  r[i].appendChild(elem);
 }
 
 /* export default function id() {
@@ -21,6 +21,6 @@ function sec() {
 } */
 
 export default function id() {
-    setInterval(sec, 1000);
+  setInterval(sec, 1000);
 }
 id();
