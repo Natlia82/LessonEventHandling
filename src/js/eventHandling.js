@@ -7,10 +7,10 @@ let away = 0;
 father.addEventListener('click', (event) => {
   const elementOk = event.target.getAttribute('data');
   if (elementOk !== 'location') {
-      away += 1;
+    away += 1;
   }
   if (away === 5) {
-      clearTimeout(id());
-      alert('Игра окончина!');
+    clearTimeout(id());
+    alert('Игра окончина!');
   }
 });
