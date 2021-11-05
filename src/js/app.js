@@ -5,15 +5,15 @@ elem.src = 'https://raw.githubusercontent.com/netology-code/ahj-homeworks/simpli
 elem.alt = 'рожица';
 elem.setAttribute('data', 'location');
 
-function getRandomIntInclusive(min, max) {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+function getRandomIntInclusive(from, before) {
+    let min = Math.ceil(from);
+    let max = Math.floor(before);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 function sec() {
-  const i = getRandomIntInclusive(0, 15);
-  r[i].appendChild(elem);
+    const i = getRandomIntInclusive(0, 15);
+    r[i].appendChild(elem);
 }
 
 /* export default function id() {
