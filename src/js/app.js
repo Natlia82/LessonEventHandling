@@ -6,8 +6,8 @@ elem.alt = 'рожица';
 elem.setAttribute('data', 'location');
 
 function getRandomIntInclusive(from, before) {
-    let min = Math.ceil(from);
-    let max = Math.floor(before);
+    const min = Math.ceil(from);
+    const max = Math.floor(before);
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
@@ -20,5 +20,7 @@ function sec() {
   setInterval(sec, 1000);
 } */
 
-export const id = setInterval(sec, 1000);
-// id;
+export default function id() {
+    setInterval(sec, 1000);
+}
+id();
